@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>LavarropasApp.BLL</RootNamespace>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LavarropasApp.Domain\LavarropasApp.Domain.csproj" />
+    <ProjectReference Include="..\LavarropasApp.DAL\LavarropasApp.DAL.csproj" />
+  </ItemGroup>
+
+</Project>
